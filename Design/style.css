@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: auto;
+  background-color: rgb(227, 221, 221);
+}
+
+input {
+  width: 30%;
+  padding: 10px;
+  border: 0;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+button {
+  width: 30%;
+  padding: 10px;
+  background-color: rgb(145, 207, 135);
+  border: 0;
+  /* color: white; */
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
